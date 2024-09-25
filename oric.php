@@ -59,7 +59,7 @@
     margin-bottom: 15px;
 }
 .oric_about .cont p{
-    font-size:15px !important;
+  font-size: 0.8rem;;
 }
 /* .oric_about p {
     font-size: 16px;
@@ -74,14 +74,15 @@
 }
 
 .oric_about h3 {
-    font-size: 22px;
+  font-family: "Playfair Display SC", serif;
+    font-size: calc(0.375rem + 1.5vw);
     font-weight: bold;
     margin-top: 10px;
 }
 
 .oric_about p {
-    font-size: 18px;
-    color: #777;
+  font-size: 0.8rem;;
+    color: #777;w
     margin-top: 10px;
 }
 
@@ -142,7 +143,7 @@
 }
 
 .oric_scope-description {
-  font-size: 16px;
+  font-size: 0.8rem;
   color: #6c757d;
   margin-bottom: 20px;
   line-height: 1.6;
@@ -181,7 +182,8 @@
   flex-wrap: wrap;
 }
 .oric_message-content h1{
-    font-size: 36px;
+  font-family: "Playfair Display SC", serif;
+    font-size: calc(1.375rem + 1.5vw);
     font-weight: bold;
     margin-bottom: 20px;
 }

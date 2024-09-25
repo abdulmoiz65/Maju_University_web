@@ -76,7 +76,6 @@
 .oric_about h3 {
   font-family: "Playfair Display SC", serif;
     font-size: calc(0.375rem + 1.5vw);
-    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -106,7 +105,7 @@
 }
 
 .oric_scope-section {
-  background-color: #F3F6F9; /* Adjust as per your site's color theme */
+  /* background-color: #F3F6F9; */
   padding: 50px 0;
 }
 
@@ -136,9 +135,9 @@
 }
 
 .oric_scope-content h1 {
+  font-family: "Playfair Display SC", serif;
   font-size: 48px;
   line-height: 1.2;
-  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -150,6 +149,9 @@
 }
 
 @media (max-width: 768px) {
+  .oric_scope-content{
+    margin:2rem;
+  }
   .oric_scope-container {
     flex-direction: column;
     text-align: center;
@@ -167,7 +169,7 @@
 /* message  */
 
 .oric_message-section {
-  background-color: #fff; /* Adjust background as per your theme */
+  background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -184,7 +186,6 @@
 .oric_message-content h1{
   font-family: "Playfair Display SC", serif;
     font-size: calc(1.375rem + 1.5vw);
-    font-weight: bold;
     margin-bottom: 20px;
 }
 .oric_message-content h2 {
@@ -287,9 +288,10 @@
   border-left: 2px solid #007bff;
 }
 .oric_organogram-section h1{
+  font-family: "Playfair Display SC", serif;
     font-size: 36px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .oric_organogram-box::before {
@@ -348,6 +350,27 @@ $arrayOfSlides = [
 $arrayOfButtonContents = [['MAJU ORIC', 'oric.php']];
 createSlideShow($arrayOfSlides, $arrayOfButtonContents); 
 ?>
+
+
+<section class="oric_scope-section">
+  <div class="oric_scope-container">
+    <div class="oric_scope-image">
+      <img src="./public/pictures/oric.avif" alt="oric image">
+    </div>
+    <div class="oric_scope-content">
+      <p class="oric_scope-tagline">MAJU ORIC</p>
+      <h1>ORIC Scope</h1>
+      
+      <p class="oric_scope-description">
+      We at ORIC share the responsibility of nurturing all research programs and policies to reflect the above core values. We also strive to have full compliance with all legal requirements and operational policies of the university.
+      </p>
+      <p class="oric_scope-description">
+      The Mohammad Ali Jinnah University is deeply committed to the promulgation of a knowledge culture and cultivation of wisdom for the benefit of the humanity.
+      </p>
+    </div>
+  </div>
+</section>
+
 <section class="oric_about">
     <div class="container">
         <div class="row text-center">
@@ -378,24 +401,6 @@ createSlideShow($arrayOfSlides, $arrayOfButtonContents);
             </div>
         </div>
     </div>
-</section>
-
-<section class="oric_scope-section">
-  <div class="oric_scope-container">
-    <div class="oric_scope-image">
-      <img src="./public/pictures/oric.avif" alt="oric image">
-    </div>
-    <div class="oric_scope-content">
-      <p class="oric_scope-tagline">MAJU ORIC</p>
-      <h1>ORIC Scope</h1>
-      <p class="oric_scope-description">
-      We at ORIC share the responsibility of nurturing all research programs and policies to reflect the above core values. We also strive to have full compliance with all legal requirements and operational policies of the university.
-      </p>
-      <p class="oric_scope-description">
-      The Mohammad Ali Jinnah University is deeply committed to the promulgation of a knowledge culture and cultivation of wisdom for the benefit of the humanity.
-      </p>
-    </div>
-  </div>
 </section>
 
 <section class="oric_message-section">

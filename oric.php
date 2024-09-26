@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./public/pictures/logofavwhite.png" type="image/x-icon">
     <title>Mohammad Ali Jinnah University - Feedback</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <?php
     include('./components/bootstrap/bootstrap.php');
     ?>

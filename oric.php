@@ -166,6 +166,84 @@
     font-size: 36px;
   }
 }
+
+
+/* research  */
+.oric_re-section {
+  padding: 50px 0;
+}
+
+.oric_re-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.oric_re-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.oric_re-content {
+  max-width: 600px;
+}
+
+.oric_re-tagline {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.oric_re-content h1 {
+  font-family: "Playfair Display SC", serif;
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.oric_re-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  list-style-type: none; /* Remove default bullets */
+  padding-left: 20px;
+}
+
+.oric_re-description li::before {
+  content: "➢"; /* Set bullet character */
+  color: #6c757d; /* You can change the color if needed */
+  font-size: 1rem; /* Adjust bullet size if necessary */
+  display: inline-block;
+  width: 1em; /* Ensure space between bullet and text */
+  margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .oric_re-content {
+    margin: 2rem;
+  }
+  
+  .oric_re-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .oric_re-image img {
+    max-width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .oric_re-content h1 {
+    font-size: 36px;
+  }
+}
+
 /* message  */
 
 .oric_message-section {
@@ -368,6 +446,32 @@ createSlideShow($arrayOfSlides, $arrayOfButtonContents);
       The Mohammad Ali Jinnah University is deeply committed to the promulgation of a knowledge culture and cultivation of wisdom for the benefit of the humanity.
       </p>
     </div>
+  </div>
+</section>
+
+<!-- RESEARCH  -->
+<section class="oric_re-section">
+  <div class="oric_re-container">
+   
+    <div class="oric_re-content">
+      <p class="oric_re-tagline">MAJU ORIC</p>
+      <h1>Research Areas</h1>
+      
+<ul class="oric_re-description">
+  <li>Biotechnology, Genomics, Bioinformatics, Protein Science, Pharmacology</li>
+  <li>Electrical Engineering</li>
+  <li>Computer Science</li>
+  <li>Computer Systems Engineering</li>
+  <li>Management Science</li>
+  <li>Social Sciences (including Psychology)</li>
+</ul>
+
+    </div>
+
+    <div class="oric_re-image">
+      <img src="./public/pictures/oric5.jpg" alt="oric image">
+    </div>
+
   </div>
 </section>
 

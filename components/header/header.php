@@ -1,5 +1,5 @@
 <?php
-include('./components/resources/socailmedialinks.php');
+// include('./components/resources/socailmedialinks.php');
 include('./components/header/navlink.php');
 
 ?>
@@ -38,8 +38,15 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink"><a href="<?php echo $itservices ?>">IT Services</a></div>
                         <div class="mainmenulink"><a href="<?php echo $oric ?>">ORIC</a></div>
                         <div class="mainmenulink"><a href="<?php echo $jberj ?>"  target="_blank">JBERJ</a></div>
-                        <div class="mainmenulink"><a href="<?php echo $fyp ?>"  target="_blank">MAJU_FYP</a></div>
-                        <div class="mainmenulink"><a href="<?php echo $mpa ?>"  target="_blank">Academy</a></div>
+                        <div class="mainmenulink"><a href="<?php echo $fyp ?>"  target="_blank">MAJU-FYP</a></div>
+                        <div class="mainmenulink dropdown">
+                        <a href="" target="_blank">Academy</a>
+                        <div class="dropdown-content">
+                                <a href="<?php echo $mpa ?>" target="_blank" >Palo Alto</a>
+                                <a href="<?php echo $mca ?>" target="_blank" >Cisco Academy</a>
+                                <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>
+                        </div>
+                    </div>
                         <div class="mainmenulink"><a href="<?php echo $navttc ?>"  target="_blank">NAVTTC</a></div>
                         <div class="mainmenulink"><a href="<?php echo $contact ?>">Contact</a></div>
                     </div>
@@ -82,9 +89,16 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink-s"><a href="<?php echo $home ?>">HOME</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $itservices ?>">IT Services</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $oric ?>">ORIC</a></div>
-                        <div class="mainmenulink-s"><a href="<?php echo $jberj ?>">JBERJ</a></div>
-                        <div class="mainmenulink-s"><a href="<?php echo $fyp ?>">MAJU-FYP</a></div>
-                        <div class="mainmenulink-s"><a href="<?php echo $mpa ?>">Academy</a></div>
+                        <div class="mainmenulink-s"><a href="<?php echo $jberj ?>" target="_blank" >JBERJ</a></div>
+                        <div class="mainmenulink-s"><a href="<?php echo $fyp ?>" target="_blank" >MAJU-FYP</a></div>
+                        <div class="mainmenulink-s dropdown">
+                            <a href="" target="_blank">Academy</a>
+                            <div class="dropdown-content">
+                                <a href="<?php echo $mpa ?>" target="_blank" >Palo Alto</a>
+                                <a href="<?php echo $mca ?>" target="_blank" >Cisco Academy</a>
+                                <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>
+                            </div>
+                        </div>
                         <div class="mainmenulink-s"><a href="<?php echo $navttc ?>">NAVTTC</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $contact ?>">contact</a></div>
                     </div>
@@ -103,6 +117,7 @@ include('./components/header/navlink.php');
 
 <script src="./components/header/scroll.js"></script>
 <script>
+    
     let elementa = document.querySelector("#popupmenu");
     let elementb = document.querySelector("#popupmenub");
 

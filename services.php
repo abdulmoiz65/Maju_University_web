@@ -44,8 +44,8 @@
  include("./components/buttons/buttons.php");
 include('./components/carousel/carousel_it.php');
 $arrayOfSlides = [
-    ["./public/pictures/8.jpg", "<b>MAJU IT Services</b>", "We at Mohammad Ali Jinnah University<br>provides best IT Services"],
-    ["./public/pictures/7.jpg", "<b>MAJU IT Services</b>", "We at Mohammad Ali Jinnah University<br>provides best IT Services"],
+    ["./public/pictures/majuit.jpg", "<b>MAJU IT Services</b>", "We at Mohammad Ali Jinnah University<br>provides best IT Services"],
+    ["./public/pictures/majuit2.jpg", "<b>MAJU IT Services</b>", "We at Mohammad Ali Jinnah University<br>provides best IT Services"],
     ["./public/pictures/9.jpg", "<b>MAJU IT Services</b>", "We at Mohammad Ali Jinnah University<br>provides best IT Services"]
 ];
 $arrayOfButtonContents = [['IT Services', 'services.php']];

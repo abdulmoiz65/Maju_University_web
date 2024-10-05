@@ -418,7 +418,7 @@
   <?php include('./components/header/header.php');?>  
   <?php
  include("./components/buttons/buttons.php");
-include('./components/carousel/carousel_it.php');
+include('./components/carousel/carousel.php');
 $arrayOfSlides = [
     ["./public/pictures/majuoric3.jpg", "<b>MAJU ORIC</b>", "Mohammad Ali Jinnah University<br>Office of Research, Innovation and Commercialization"],
     ["./public/pictures/live.jpg", "<b>MAJU ORIC</b>", "Mohammad Ali Jinnah University<br>Office of Research, Innovation and Commercialization"],
@@ -427,7 +427,6 @@ $arrayOfSlides = [
 $arrayOfButtonContents = [['MAJU ORIC', 'oric.php']];
 createSlideShow($arrayOfSlides, $arrayOfButtonContents); 
 ?>
-
 
 <section class="oric_scope-section">
   <div class="oric_scope-container">
@@ -452,6 +451,10 @@ createSlideShow($arrayOfSlides, $arrayOfButtonContents);
 <section class="oric_re-section">
   <div class="oric_re-container">
    
+  <div class="oric_re-image">
+      <img src="./public/pictures/oric5.jpg" alt="oric image">
+    </div>
+
     <div class="oric_re-content">
       <p class="oric_re-tagline">MAJU ORIC</p>
       <h1>Research Areas</h1>
@@ -467,9 +470,7 @@ createSlideShow($arrayOfSlides, $arrayOfButtonContents);
 
     </div>
 
-    <div class="oric_re-image">
-      <img src="./public/pictures/oric5.jpg" alt="oric image">
-    </div>
+    
 
   </div>
 </section>

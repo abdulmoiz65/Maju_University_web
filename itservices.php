@@ -9,31 +9,21 @@
         /* body {
             display: flex;
         } */
-
         #left-menu {
-            /* flex: 0 0 500px; */
-            /* Set the fixed width for the left menu */
-            /* max-width: 500px; */
-            /* Added maximum width to ensure it doesn't exceed 200px */
             background-color: #f1f1f1;
             padding: 10px;
         }
 
         #right-content {
-            /* flex-grow: 1; */
-            /* max-width: 1000px; */
-            /* Fixed maximum width for the right content */
             padding: 10px;
         }
 
         #right-content h2 {
             color: #333;
         }
-
         #right-content p {
             color: #777;
         }
-
         /* Added CSS for highlighting the active menu item */
         .list-group-item.active {
             background-color: #e9ecef;
@@ -56,7 +46,6 @@
                                 <i class="fas fa-chalkboard-teacher fa-lg"></i>
                             </span>
                             Faculty / Staff Working Remotely
-                        
                     </li>
 
                     

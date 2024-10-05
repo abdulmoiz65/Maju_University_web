@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Rules of Conduct</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <style>
+    h1{
+            font-family:"Playfair Display SC", serif;
+            color:#112269;
+            font-weight: 600;
+        }
+  </style>
   </head>
   <body>
 
-  <h3>Rules of Conduct</h3> 
+  <h1>Rules of Conduct</h1> 
   <ul class="list-group">
 
     <li class="list-group-item list-group-item-secondary"> Students using the Computer LABs are required to comply with the following rules of conduct. Lab Assistant have responsibility for enforcing these rules, and will notify LAB users if they are in violation. Failure to comply with these rules may result in removal from the LABs, termination of access, loss of computing privileges, disciplinary review, expulsion, legal action, termination of employment, or other disciplinary action.</li>

@@ -41,7 +41,7 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink"><a href="<?php echo $fyp ?>"  target="_blank">MAJU-FYP</a></div>
                         <div class="mainmenulink dropdown">
                         <a href="" target="_blank">Academy</a>
-                        <div class="dropdown-content">
+                        <div class="dropdown-contentt">
                                 <a href="<?php echo $mpa ?>" target="_blank" >Palo Alto</a>
                                 <a href="<?php echo $mca ?>" target="_blank" >Cisco Academy</a>
                                 <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>
@@ -93,7 +93,7 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink-s"><a href="<?php echo $fyp ?>" target="_blank" >MAJU-FYP</a></div>
                         <div class="mainmenulink-s dropdown">
                             <a href="" target="_blank">Academy</a>
-                            <div class="dropdown-content">
+                            <div class="dropdown-contentt">
                                 <a href="<?php echo $mpa ?>" target="_blank" >Palo Alto</a>
                                 <a href="<?php echo $mca ?>" target="_blank" >Cisco Academy</a>
                                 <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>

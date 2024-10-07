@@ -128,14 +128,10 @@
         }
 
         #right-content .message-content {
-            max-width: 70%;
+            max-width: 100%;
         }
 
-        #right-content .message-image img {
-            border-radius:8px;
-            max-width: 150px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-        }
+       
         #right-content .message h4{
             font-size: 28px;
             font-weight:600;
@@ -311,9 +307,9 @@
                             <h6>Nauman Hafeez Ansari</h6>
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, distinctio."</p>
                         </div>
-                        <div class="message-image ms-3">
+                        <!-- <div class="message-image ms-3">
                             <img src="./public/pictures/Nauman_Ansari.jpg" alt="Director Image">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
 

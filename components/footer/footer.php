@@ -31,7 +31,7 @@ include('./components/header/navlink.php');
                                 <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $home ?>">HOME</a></img></li>
                                 <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $jberj ?>" target="_blank">JBERJ</a></img></li>
                                 <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $fyp ?>" target="_blank">MAJU FYP</a></img></li>
-                                <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $mpa ?>" target="_blank">Academy</a></img></li>
+                                <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="#" target="_blank">Academy</a></img></li>
                                 <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $navttc ?>" target="_blank">NAVTTC</a></img></li>
                                 <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $itservices ?>">IT Services</a></img></li>
                                 <li><span><img src="" alt=""></span><a class="monst white"  style="text-decoration:none" href="<?php echo $oric ?>">ORIC</a></img></li>
@@ -76,3 +76,4 @@ include('./components/header/navlink.php');
             </div>
         </div>
     </footer>
+    

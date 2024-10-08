@@ -35,6 +35,7 @@
             color: #fff;
         }
 
+
         .contact-section::before {
             content: "";
             position: absolute;
@@ -105,6 +106,9 @@
         }
 
         @media (max-width: 768px) {
+            .contact-section{
+                margin-top:4rem;
+            }
             .contact-section h1 {
                 font-size: 2.5rem;
             }

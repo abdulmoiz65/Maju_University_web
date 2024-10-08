@@ -99,7 +99,7 @@ include('./components/header/navlink.php');
                                 <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>
                             </div>
                         </div>
-                        <div class="mainmenulink-s"><a href="<?php echo $navttc ?>">NAVTTC</a></div>
+                        <div class="mainmenulink-s"><a href="<?php echo $navttc ?>" target="_blank" >NAVTTC</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $contact ?>">contact</a></div>
                     </div>
                 </div>

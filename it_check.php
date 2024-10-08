@@ -84,6 +84,10 @@
         .text{
             font-size: 13px;
         }
+          .icon-span i{
+            color:white;
+        }
+
         #right-content {
             padding: 30px;
             background-color: #ffffff;
@@ -103,26 +107,14 @@
             font-weight: 600;
             /* color:#112269; */
         }
-        .icon-span i{
-            color:white;
-        }
+      
 
         #right-content p {
             color: #555;
             font-size: 16px;
         }
-        #right-content .message {
-            background-color: #ffffff;
-            width: 100%;
-            border-radius: 12px;
-            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
-            text-align: left;
-            display: flex;
-            justify-content: space-between;
-        }
         #right-content .image img{
             margin-top:2rem;
-            border-radius:8px;
             height:600px;
             width:100%
         }
@@ -131,13 +123,42 @@
             max-width: 100%;
         }
 
-       
-        #right-content .message h4{
-            font-size: 28px;
-            font-weight:600;
-            font-family:"Playfair Display SC", serif;
-        }
+        /* Message Section */
+#right-content .message {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.5);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-bottom: 32px;
+}
 
+/* Message Heading */
+#right-content .message h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1a2e8d;
+    margin-bottom: 12px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+/* Message Subheading */
+#right-content .message h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 12px;
+}
+
+/* Message Content */
+#right-content .message p {
+    font-size: 16px;
+    color: #5e5e5e;
+    line-height: 1.5;
+}
 
             /* Add media query for mobile screens */
             @media (max-width: 768px) {
@@ -298,23 +319,17 @@
                             professional needs.</p>
                     </div>
                     
-                    <!-- New Director ORIC Message Section -->
-                     <div class="container">
-                    <div class="message mt-4 p-3 d-flex align-items-center  justify-content-center">
-
-                        <div class="message-content">
+                    <!-- Director IT Message Section -->
+                    <div class="container">
+                        <div class="message mt-5">
                             <h4>Director IT Message</h4>
                             <h6>Nauman Hafeez Ansari</h6>
                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, distinctio."</p>
                         </div>
-                        <!-- <div class="message-image ms-3">
-                            <img src="./public/pictures/Nauman_Ansari.jpg" alt="Director Image">
-                        </div> -->
                     </div>
-                </div>
 
                 <div class="text-center image">
-                        <img src="./public/pictures/it2.jpg" alt="IT Services Image">
+                        <img src="https://cdn.pixabay.com/photo/2017/08/29/08/39/industry-2692459_1280.jpg" alt="IT Services Image">
                     </div>
             
 

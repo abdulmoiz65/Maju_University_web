@@ -193,11 +193,10 @@
                         </span>
                          <span class="text">Learning management system</span>
                         <ul class="dropdown-content">
-                            <li>Microsoft Teams</li>
-                            <li>Google Classroom</li>
-                            <li>Moodle</li>
-                            <li>Maju Online</li>
-                            <li>E learning</li>
+                            <li onclick="loadPage('./itservices/microsoft_teams.php')" >Microsoft Teams</li>
+                            <li onclick="loadPage('./itservices/classroom.php')" >Google Classroom</li>
+                            <li onclick="loadPage('./itservices/maju_online.php')" >Maju Online</li>
+                            <li onclick="loadPage('./itservices/E_learning.php')" >E learning</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -208,7 +207,7 @@
                         <ul class="dropdown-content">
                             <li onclick="loadPage('./itservices/koha.php')" >LMS Koha</li>
                             <li onclick="loadPage('./itservices/Ebrary.php')" >Ebrary</li>
-                            <li>Dspace</li>
+                            <li onclick="loadPage('./itservices/dspace.php')" >Dspace</li>
                             <li>Digital Library System</li>
                         </ul>
                     </li>

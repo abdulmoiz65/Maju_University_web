@@ -147,7 +147,7 @@
 
             <!-- Form Section -->
             <div class="feedback-form">
-                <form action="submit-feedback.php" method="POST">
+            <form action="submit_feedback.php" method="POST">
                     <div class="form-group">
                         <label for="name">Name</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>

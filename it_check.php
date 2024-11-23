@@ -208,7 +208,6 @@
                             <li onclick="loadPage('./itservices/koha.php')" >LMS Koha</li>
                             <li onclick="loadPage('./itservices/Ebrary.php')" >Ebrary</li>
                             <li onclick="loadPage('./itservices/dspace.php')" >Dspace</li>
-                            <li>Digital Library System</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -226,7 +225,7 @@
                         </span>
                         <span class="text">Remote Services</span>
                         <ul class="dropdown-content">
-                            <li>Remote Access Via VPN</li>
+                            <li onclick="loadPage('./itservices/accessVPN.php')" >Remote Access Via VPN</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -235,8 +234,8 @@
                         </span>
                         <span class="text">Online Classes Services</span>
                         <ul class="dropdown-content">
-                            <li onclick="loadPage('./itservices/printServer.php')" >Lecture Recording Facilities</li>
-                            <li>Arrangement and Monitoring of Online Classes</li>
+                            <li onclick="loadPage('./itservices/lecture_recording.php')" >Lecture Recording Facilities</li>
+                            <li onclick="loadPage('./itservices/onlineclasses.php')" >Arrangement and Monitoring of Online Classes</li>
                             <li>Video Conferencing Facilities</li>
                         </ul>
                     </li>
@@ -264,8 +263,8 @@
                         </span>
                         <span class="text">Complaint log system</span>
                         <ul class="dropdown-content">
-                            <li onclick="" >Student Facilitation System</li>
-                            <li onclick="" >Admin Desk</li>
+                            <li onclick="loadPage('./itservices/std_facilitation.php')" >Student Facilitation System</li>
+                            <li onclick="loadPage('./itservices/admin_desk.php')" >Admin Desk</li>
                             <li onclick="loadPage('./itservices/helpdesk.php')" >IT Helpdesk</li>
                         </ul>
                     </li>
@@ -289,7 +288,7 @@
                         <ul class="dropdown-content">
                             <li onclick="loadPage('./itservices/plagiarism.php')">Plagiarism(Turnitin)</li>
                             <li  onclick="loadPage('./itservices/laptop.php')">Laptop</li>
-                            <li onclick="">Office 365</li>
+                            <li onclick="loadPage('./itservices/office365.php')">Office 365</li>
                         </ul>
                     </li>
            

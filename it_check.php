@@ -255,7 +255,7 @@
                         </span>
                         <span class="text">File Storage Services</span>
                         <ul class="dropdown-content">
-                            <li onclick="" >Venus1</li>
+                            <li onclick="loadPage('./itservices/venus1.php')" >Venus1</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -275,10 +275,10 @@
                         </span>
                         <span class="text">Media Services</span>
                         <ul class="dropdown-content">
-                            <li onclick="" >FM Radio</li>
+                            <li onclick="loadPage('./itservices/MAJU_FM.php')" >FM Radio</li>
                             <li onclick="" >Media Lab</li>
                             <li onclick="loadPage('./itservices/cslab.php')" >Computer Labs</li>
-                            <li onclick="" >Multimedia and Sound Systems</li>
+                            <li onclick="loadPage('./itservices/MM_SS.php')" >Multimedia and Sound Systems</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -287,8 +287,8 @@
                         </span>
                         <span class="text">Miscellaneous</span>
                         <ul class="dropdown-content">
-                            <li onclick="">Plagiarism(Turnitin)</li>
-                            <li onclick="">Laptop</li>
+                            <li onclick="loadPage('./itservices/plagiarism.php')">Plagiarism(Turnitin)</li>
+                            <li  onclick="loadPage('./itservices/laptop.php')">Laptop</li>
                             <li onclick="">Office 365</li>
                         </ul>
                     </li>

@@ -138,39 +138,83 @@
     ?>
 
     <!-- Feedback Form Section -->
-    <div class="feedback-section">
-        <div class="feedback-container">
-            <!-- Image Section -->
-            <div class="feedback-image">
-                <h2>We Value Your Feedback</h2>
-            </div>
+<!-- Feedback Form Section -->
+<div class="feedback-section">
+    <div class="feedback-container">
+        <!-- Image Section -->
+        <div class="feedback-image">
+            <h2>We Value Your Feedback</h2>
+        </div>
 
-            <!-- Form Section -->
-            <div class="feedback-form">
-            <form action="submit_feedback.php" method="POST">
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="feedback">Describe Your Feedback</label>
-                        <textarea class="form-control" id="feedback" name="feedback" rows="5" placeholder="Enter your feedback" required></textarea>
-                    </div>
-                    <button type="submit" class="btn submit-btn">Submit Feedback</button>
-                </form>
-            </div>
+        <!-- Form Section -->
+        <div class="feedback-form">
+            <form id="contactForm" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Describe Your Feedback</label>
+                    <textarea class="form-control" id="feedback" name="feedback" rows="5" placeholder="Enter your feedback" required></textarea>
+                </div>
+                <button type="submit" class="btn submit-btn">Submit Feedback</button>
+            </form>
+
+            <!-- Response Message -->
+            <div id="response" style="display: none; margin-top: 15px;"></div>
         </div>
     </div>
+</div>
+
     <!-- End of Feedback Form Section -->
 
     <?php
     // Include footer
     include('./components/footer/footer.php');
     ?>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', async function (e) {
+        e.preventDefault();
+
+        const formData = new FormData(this);
+        const responseDiv = document.getElementById('response');
+
+        // Show immediate feedback
+        responseDiv.style.display = 'block';
+        responseDiv.style.fontSize = '36px';
+        responseDiv.style.fontWeight = 'bolder';
+        responseDiv.style.color = 'blue';
+        responseDiv.textContent = 'Sending...';
+
+        try {
+            const response = await fetch('send_mail.php', {
+                method: 'POST',
+                body: formData
+            });
+
+            const result = await response.json();
+
+            // Update feedback based on response
+            responseDiv.textContent = result.message;
+            responseDiv.style.color = result.success ? 'green' : 'red';
+            responseDiv.style.fontSize = result.success ? '18px' : '14px';
+            responseDiv.style.fontWeight = result.success ? 'lighter' : 'normal';
+
+
+            if (result.success) {
+                this.reset(); // Reset the form on success
+            }
+        } catch (error) {
+            responseDiv.textContent = 'An error occurred while sending the message.';
+            responseDiv.style.color = 'red';
+        }
+    });
+</script>
 
 </body>
 

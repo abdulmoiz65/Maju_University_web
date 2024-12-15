@@ -236,7 +236,7 @@
                         <ul class="dropdown-content">
                             <li onclick="loadPage('./itservices/lecture_recording.php')" >Lecture Recording Facilities</li>
                             <li onclick="loadPage('./itservices/onlineclasses.php')" >Arrangement and Monitoring of Online Classes</li>
-                            <li>Video Conferencing Facilities</li>
+                            
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -275,7 +275,6 @@
                         <span class="text">Media Services</span>
                         <ul class="dropdown-content">
                             <li onclick="loadPage('./itservices/MAJU_FM.php')" >FM Radio</li>
-                            <li onclick="" >Media Lab</li>
                             <li onclick="loadPage('./itservices/cslab.php')" >Computer Labs</li>
                             <li onclick="loadPage('./itservices/MM_SS.php')" >Multimedia and Sound Systems</li>
                         </ul>

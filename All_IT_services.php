@@ -133,14 +133,14 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
-    margin-bottom: 32px;
+    margin-bottom: 5px;
 }
 
 /* Message Heading */
 #right-content .message h4 {
     font-size: 26px;
-    font-weight: 700;
-    color: #1a2e8d;
+    font-weight: 500;
+    color: #343a40;
     margin-bottom: 12px;
     font-family: 'Playfair Display SC', serif;
 }
@@ -149,14 +149,15 @@
 #right-content .message h6 {
     font-size: 20px;
     font-weight: 600;
-    color: #343a40;
+    color: #1a2e8d;
     margin-bottom: 12px;
 }
 
 /* Message Content */
 #right-content .message p {
-    font-size: 16px;
-    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 15px;
+    color: #000;
     line-height: 1.5;
 }
 
@@ -321,7 +322,15 @@
                         <div class="message mt-5">
                             <h4>Director IT Message</h4>
                             <h6>Nauman Hafeez Ansari</h6>
-                            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, distinctio."</p>
+                            <p>I am pleased to welcome you to our comprehensive suite of IT services designed to support the academic, research, and administrative needs of our students, faculty, and staff.
+    </p>
+    <p>
+Our team is committed to providing reliable, secure, and innovative technology solutions that enhance educational and research experience and streamline university operations.</p>
+<p>
+We understand that technology is at the heart of modern education, and our goal is to ensure that our systems, networks, and digital resources are always available to support academic journey and professional development. Whether you are accessing learning management systems, collaborating on research, or utilizing campus-wide networks and applications, we are here to ensure you have the tools you need for success.
+    </p>
+    <p>
+Our IT support services are always available to assist you with any technical issues or inquiries. We are dedicated to making your experience with technology at the university as smooth and productive as possible.</p>
                         </div>
                     </div>
 

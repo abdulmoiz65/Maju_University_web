@@ -208,7 +208,7 @@
                         <ul class="dropdown-content">
                             <li onclick="loadPage('./itservices/koha.php')" >LMS Koha</li>
                             <li onclick="loadPage('./itservices/Ebrary.php')" >Ebrary</li>
-                            <li onclick="loadPage('./itservices/dspace.php')" >Dspace</li>
+                            <li onclick="loadPage('./itservices/Dspace.php')" >Dspace</li>
                         </ul>
                     </li>
                     <li class="list-group-item">
@@ -275,7 +275,7 @@
                         </span>
                         <span class="text">Media Services</span>
                         <ul class="dropdown-content">
-                            <li onclick="loadPage('./itservices/MAJU_FM.php')" >FM Radio</li>
+                            <li onclick="loadPage('./itservices/Maju_FM.php')" >FM Radio</li>
                             <li onclick="loadPage('./itservices/cslab.php')" >Computer Labs</li>
                             <li onclick="loadPage('./itservices/MM_SS.php')" >Multimedia and Sound Systems</li>
                         </ul>
@@ -299,7 +299,7 @@
                         <span class="text">Rules to Conduct</span>
                         <ul class="dropdown-content">
                             <li onclick="loadPage('./itservices/rulesofconduct.php')" >For Labs</li>
-                            <li onclick="loadPage('./itservices/ruleslibrary.php')" >For Library</li>
+                            <li onclick="loadPage('./itservices/rulesLibrary.php')" >For Library</li>
                         </ul>
                     </li>
                

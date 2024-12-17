@@ -84,7 +84,7 @@
                 <a href="https://majuonline.edu.pk/" target="_blank" class="btn">Visit MAJU Online</a>
             </div>
             <div class="image-container">
-                <img src="./public/pictures/maju-online.png" alt="MAJU Online Portal">
+                <img src="./public/pictures/MAJU-Online.png" alt="MAJU Online Portal">
             </div>
         </div>
     </div>

@@ -37,17 +37,24 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink"><a href="<?php echo $home ?>">HOME</a></div>
                         <div class="mainmenulink"><a href="<?php echo $itservices ?>">IT Services</a></div>
                         <div class="mainmenulink"><a href="<?php echo $oric ?>">ORIC</a></div>
-                        <div class="mainmenulink"><a href="<?php echo $jberj ?>"  target="_blank">JBERJ</a></div>
+                        <div class="mainmenulink"><a href="<?php echo $placements ?>">Placements</a></div>
                         <div class="mainmenulink"><a href="<?php echo $fyp ?>"  target="_blank">MAJU-FYP</a></div>
                         <div class="mainmenulink dropdown">
-                        <a href="" target="_blank">Academy</a>
+                        <a href="" >Other</a>
+                        <div class="dropdown-contentt">
+                                <a href="<?php echo $jberj ?>" target="_blank" >JBERJ</a>
+                                <a href="<?php echo $navtcc ?>" target="_blank" >Navtcc</a>
+                        </div>
+                    </div>
+                        <div class="mainmenulink dropdown">
+                        <a href="">Academy</a>
                         <div class="dropdown-contentt">
                                 <a href="<?php echo $mpa ?>" target="_blank" >Palo Alto</a>
                                 <a href="<?php echo $mca ?>" target="_blank" >Cisco Academy</a>
                                 <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>
                         </div>
                     </div>
-                        <div class="mainmenulink"><a href="<?php echo $navttc ?>"  target="_blank">NAVTTC</a></div>
+
                         <div class="mainmenulink"><a href="<?php echo $contact ?>">Contact</a></div>
                     </div>
                    <div id="programsdropdown" class="container-fluid programsdropdown">
@@ -89,17 +96,23 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink-s"><a href="<?php echo $home ?>">HOME</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $itservices ?>">IT Services</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $oric ?>">ORIC</a></div>
-                        <div class="mainmenulink-s"><a href="<?php echo $jberj ?>" target="_blank" >JBERJ</a></div>
+                        <div class="mainmenulink-s"><a href="<?php echo $placement ?>">Placements</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $fyp ?>" target="_blank" >MAJU-FYP</a></div>
                         <div class="mainmenulink-s dropdown">
-                            <a href="" target="_blank">Academy</a>
+                            <a href="">Other</a>
+                            <div class="dropdown-contentt">
+                                <a href="<?php echo $jberj ?>" target="_blank" >JBERJ</a>
+                                <a href="<?php echo $navttc ?>" target="_blank" >Navtcc</a>
+                            </div>
+                        </div>
+                        <div class="mainmenulink-s dropdown">
+                            <a href="">Academy</a>
                             <div class="dropdown-contentt">
                                 <a href="<?php echo $mpa ?>" target="_blank" >Palo Alto</a>
                                 <a href="<?php echo $mca ?>" target="_blank" >Cisco Academy</a>
                                 <a href="<?php echo $eca ?>" target="_blank" >EC-COUNCIL</a>
                             </div>
                         </div>
-                        <div class="mainmenulink-s"><a href="<?php echo $navttc ?>" target="_blank" >NAVTTC</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $contact ?>">contact</a></div>
                     </div>
                 </div>

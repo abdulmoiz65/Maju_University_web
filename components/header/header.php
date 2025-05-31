@@ -96,7 +96,7 @@ include('./components/header/navlink.php');
                         <div class="mainmenulink-s"><a href="<?php echo $home ?>">HOME</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $itservices ?>">IT Services</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $oric ?>">ORIC</a></div>
-                        <div class="mainmenulink-s"><a href="<?php echo $placement ?>">Placements</a></div>
+                        <div class="mainmenulink-s"><a href="<?php echo $placements ?>">Placements</a></div>
                         <div class="mainmenulink-s"><a href="<?php echo $fyp ?>" target="_blank" >MAJU-FYP</a></div>
                         <div class="mainmenulink-s dropdown">
                             <a href="">Other</a>

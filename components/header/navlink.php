@@ -16,4 +16,5 @@ $mca="http://mca.jinnah.edu/";
 $mpa = "http://mpa.jinnah.edu/";
 $fyp = "http://fyp.maju.edu.pk/";
 $eca = "http://eca.jinnah.edu/";
+$placements = "./placements.php";
 ?>
